@@ -23,7 +23,7 @@ class Option:
 
 
 par0 = Paragraph(
-    text="Nachazis se v konferencni mistnosti Poppy.",
+    text="Nachazis se v konferencni mistnosti Poppy. Co tu budes delat?",
     options=[
         Option(text="Ucit se programovat.", id=1, target=1),
         Option(text="Strihat video.", id = 2, target=2),
