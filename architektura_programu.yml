@@ -1,0 +1,20 @@
+ARCHITEKTURA PROGRAMU
+-class
+  -Paragraph
+    -Text: String
+    -Options: Option[]
+    -ID: Int
+    -Is_Final: Bool
+  -Option
+    -Target: Paragraph.ID
+    -Text: String
+    -ID: Int
+LOGIKA
+1. Načteme Paragraphy
+2. Nabídneme hráči 1. paragraph
+3. Podstrčíme hráči možnosti
+4. Zeptáme se na výběr možnosti
+5. Načteme odpověď hráče
+6. Nabídneme hráči paragraph podle Option.Target
+7. Skončíme, pokud je hráč na posledním paragraphu
+8. Jinak opakujeme od bodu číslo 3., dokud hra neskončí
