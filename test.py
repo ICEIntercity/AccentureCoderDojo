@@ -1,14 +1,23 @@
 class Paragraph:
-    options = []
     text = ""
+    options = []
     id = 0
     is_final = True
 
-    def __init__(self, options: list, text: str, id: int, is_final: bool):
-        self.options = options
+    def __init__(self, text: str, options: list, id: int, is_final: bool):
         self.text = text
+        self.options = options
         self.id = id
         self.is_final = is_final
+    
+    def display(self):
+        print(f"{self.text}\n")
+        cislo = 0
+        for opt in self.options:
+            pismeno = chr(cislo + 65)
+            print(f"{pismeno}) {opt.text}")
+            cislo = cislo + 1
+        print("Kterou možnost zvolíš?")
 
 class Option:
     text = ""
@@ -31,10 +40,10 @@ par0 = Paragraph(
         ],
     id=0,
     is_final=False
-    )
+)
 
 par1 = Paragraph(text="Napsal jsi krasny kod!", is_final=True, options=[], id=1)
-par2 = Paragraph(text="Nenaucil jsi se programovat.", is_final=True, options=[], id=2)
+par2 = Paragraph(text="Nenaucil ses programovat.", is_final=True, options=[], id=2)
 
-
-
+paragraphs = [par0, par1, par2]
+paragraphs[0].display()
