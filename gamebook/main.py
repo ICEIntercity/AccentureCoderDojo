@@ -1,3 +1,5 @@
+import json
+
 class Paragraph:
     text = ""
     options = []
@@ -20,6 +22,30 @@ class Paragraph:
         
         if len(self.options) != 0:
             print("Kterou možnost zvolíš?")
+
+def load_paragraphs(file_path):
+    paragraphs = []
+    with open(file_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+        for item in data:
+            par_options = []
+            for opt_str in item['options']:
+                opt = Option(
+                    text=opt_str['text'],
+                    target=opt_str['target'],
+                    id=opt_str['id']
+                )
+                par_options.append(opt)
+
+            par = Paragraph(
+                text=item['text'],
+                options=par_options,
+                id=item['id'],
+                is_final=item['is_final']
+            )
+            paragraphs.append(par)
+
+    return paragraphs
 
 class Option:
     text = ""
@@ -51,7 +77,8 @@ par2 = Paragraph(text="Nenaucil ses programovat.", is_final=False, options=[
 ], id=2)
 par3 = Paragraph(text="Opravdu to nejde.", is_final=True, options=[], id=3)
 
-paragraphs = [par0, par1, par2, par3]
+# paragraphs = [par0, par1, par2, par3]
+paragraphs = load_paragraphs("paragraphs.json")
 
 current_paragraph = paragraphs[0]
 current_paragraph.display()
