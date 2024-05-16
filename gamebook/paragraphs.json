@@ -1,0 +1,619 @@
+[
+    {
+        "text": "Objevil ses v listnatém lese na vyšlapané pěšince. Zdá se, že nejsi moc daleko od vesnice nebo města. Pořádně ti kručí v břiše. Co uděláš?",
+        "options": [
+            {
+                "text": "půjdeš doleva",
+                "target": 6,
+                "id": 1
+            },
+            {
+                "text": "půjdeš doprava",
+                "target": 7,
+                "id": 2
+            },
+            {
+                "text": "půjdeš hledat něco k jídlu",
+                "target": 2,
+                "id": 3
+            }
+        ],
+        "id": 1,
+        "is_final": false
+    },
+    {
+        "text": "Rozhodl ses, že se nejdřív najíš. Chvíli se rozhlížíš a uvidíš keř s červenými bobulemi. Natrháš si plnou hrst těch bobulí. Sníš je?",
+        "options": [
+            {
+                "text": "ano, vypadají skvěle",
+                "target": 4,
+                "id": 1
+            },
+            {
+                "text": "ne, jsou možná jedovaté a stejně by ses spíš potřeboval napít",
+                "target": 5,
+                "id": 2
+            },
+            {
+                "text": "dáš si jednu na zkoušku",
+                "target": 3,
+                "id": 3
+            }
+        ],
+        "id": 2,
+        "is_final": false
+    },
+    {
+        "text": "Ochutnal jsi a rázem se ti udělalo špatně. Ještěže jsi jich nesnědl víc. Jsou tak hořké, že to potřebuješ něčím zapít. Měl bys najít studánku. Nebo se raději vydáš po cestě?",
+        "options": [
+            {
+                "text": "zkusíš najít studánku",
+                "target": 5,
+                "id": 1
+            },
+            {
+                "text": "půjdeš po cestě doleva",
+                "target": 6,
+                "id": 2
+            },
+            {
+                "text": "půjdeš po cestě doprava",
+                "target": 7,
+                "id": 3
+            }
+        ],
+        "id": 3,
+        "is_final": false
+    },
+    {
+        "text": "Bobule sice vypadaly skvěle, ale moc dobře nechutnají. Rozostřilo se ti vidění a slyšíš nějaké hlasy. Vypadá to na otravu. Snad tu jsou někde hodní lidé, co ti pomohou.",
+        "options": [
+            {
+                "text": "pokračuju dál",
+                "target": 5,
+                "id": 1
+            }
+        ],
+        "id": 4,
+        "is_final": false
+    },
+    {
+        "text": "Ta cesta byla snad nekonečná. Jsi hodně vyčerpaný, když konečně vylezeš na poli. Je plné mužů, kteří sečou obilí a žen, co jim nosí vodu, protože na přestávku není čas. Dívají se na tebe sice nehezky, ale vyprosil sis trochu vody a nemusíš už hledat studánku. Za polem vidíš domky a kostel.",
+        "options": [
+            {
+                "text": "pokračuju dál",
+                "target": 7,
+                "id": 1
+            }
+        ],
+        "id": 5,
+        "is_final": false
+    },
+    {
+        "text": "Kousek před tebou jsou brány města, které se právě zavírají. Zabušíš, aby tě pustili dál a ozve se: „Kdo je tvůj otec a co tě sem přivádí?“",
+        "options": [
+            {
+                "text": "vím",
+                "target": 8,
+                "id": 1
+            },
+            {
+                "text": "nevím, jdu do vesnice",
+                "target": 7,
+                "id": 2
+            }
+        ],
+        "id": 6,
+        "is_final": false
+    },
+    {
+        "text": "Vesnice se skládá z pár domečků a kostela. Všechno je tu poničené, jakoby došlo k nějakému útoku…Rozezní se poplašný zvon, následovaný bušením kopyt desítek koní a mocným řevem. Bandité! Co teď?",
+        "options": [
+            {
+                "text": "schováš se do nejbližšího domu",
+                "target": 10,
+                "id": 1
+            },
+            {
+                "text": "utíkáš pryč z vesnice",
+                "target": 6,
+                "id": 2
+            },
+            {
+                "text": "zkusíš s nimi vyjednávat",
+                "target": 9,
+                "id": 3
+            }
+        ],
+        "id": 7,
+        "is_final": false
+    },
+    {
+        "text": "Ve městě je spousta příležitostí, ale podle své postavy si můžeš zvolit jen některou z nich:",
+        "options": [
+            {
+                "text": "Kovář: prodej výrobků",
+                "target": 22,
+                "id": 1
+            },
+            {
+                "text": "Kovář: práce",
+                "target": 17,
+                "id": 2
+            },
+            {
+                "text": "Kovář: krčma",
+                "target": 14,
+                "id": 3
+            },
+            {
+                "text": "Obchodník: prodej výrobků",
+                "target": 22,
+                "id": 4
+            },
+            {
+                "text": "Obchodník: krčma",
+                "target": 14,
+                "id": 5
+            },
+            {
+                "text": "Rolník: prodej zeleniny",
+                "target": 22,
+                "id": 6
+            },
+            {
+                "text": "Rolník: krčma",
+                "target": 14,
+                "id": 7
+            },
+            {
+                "text": "Rytíř: návštěva hradu",
+                "target": 23,
+                "id": 8
+            },
+            {
+                "text": "Rytíř: krčma",
+                "target": 14,
+                "id": 9
+            },
+            {
+                "text": "Řemeslník: prodej výrobků",
+                "target": 22,
+                "id": 10
+            },
+            {
+                "text": "Řemeslník: práce",
+                "target": 17,
+                "id": 11
+            },
+            {
+                "text": "Řemeslník: krčma",
+                "target": 14,
+                "id": 12
+            },
+            {
+                "text": "Zloděj: prodej kradeného zboží",
+                "target": 22,
+                "id": 13
+            },
+            {
+                "text": "Zloděj: krčma",
+                "target": 14,
+                "id": 14
+            }
+        ],
+        "id": 8,
+        "is_final": false
+    },
+    {
+        "text": "Když přijedou blíž, všimneš si něčeho podivného: i přes roztrhané hadry mají nádherné koně, které by těžko ukradli z královské stáje. Je to nějaká skupina, co se za bandity maskuje. Kolem tebe projedou bez povšimnutí. Zřejmě mají konkrétní cíl.",
+        "options": [
+            {
+                "text": "budeš je sledovat",
+                "target": 11,
+                "id": 1
+            },
+            {
+                "text": "utíkáš pryč z vesnice",
+                "target": 8,
+                "id": 2
+            },
+            {
+                "text": "běžíš do nejbližšího domu varovat obyvatele",
+                "target": 10,
+                "id": 3
+            }
+        ],
+        "id": 9,
+        "is_final": false
+    },
+    {
+        "text": "„Něco hledají.“ Na posteli leží stará babička. „Nikomu neubližují, jen ničí domy. Syn říkal, že jednají na rozkaz krále.“ Jenže proč by král nařizoval pálit domy? Nedává to smysl.",
+        "options": [
+            {
+                "text": "poprosíš ji, aby vyprávěla dál",
+                "target": 15,
+                "id": 1
+            },
+            {
+                "text": "zeptáš se, kdo by mohl vědět víc",
+                "target": 13,
+                "id": 2
+            },
+            {
+                "text": "babička už je zmatená a určitě to není pravda, zeptáš se přímo těch venku",
+                "target": 16,
+                "id": 3
+            }
+        ],
+        "id": 10,
+        "is_final": false
+    },
+    {
+        "text": "Tohle jsi teda nečekal. Muž nejdřív vstoupí do domu, aby se přesvědčil, že uvnitř nikdo není. Pak zapálí oheň a hořící louči hodí přímo na dřevěnou chatrč. Pálí domy! Už jen tři a celá vesnice bude srovnána se zemí. Musíš něco udělat!",
+        "options": [
+            {
+                "text": "vběhneš do nebližšího domu, abych se přesvědčil, že je prázdný",
+                "target": 10,
+                "id": 1
+            },
+            {
+                "text": "zeptáš se jich, co dělají",
+                "target": 16,
+                "id": 2
+            },
+            {
+                "text": "není to tvůj problém, půjdeš pryč",
+                "target": 8,
+                "id": 3
+            }
+        ],
+        "id": 11,
+        "is_final": false
+    },
+    {
+        "text": "V alchymistické laboratoři je mnoho lahviček, nápadně podobných té, kterou jsi viděl u Raspagana. Ale ten muž s plnovousem… „Vy nejste Raspagan.“ „Žádného Raspagana neznám. Neznám ani tebe, ale hodil by se mi asistent. Potřebuju, abys prodával moje lektvary. Není to nic nebezpečnýho. Za to tě tu nechám bydlet a postarám se o tebe.“",
+        "options": [
+            {
+                "text": "přijmeš jeho nabídku",
+                "target": 24,
+                "id": 1
+            },
+            {
+                "text": "odmítneš a raději se porozhlédneš po městě",
+                "target": 8,
+                "id": 2
+            },
+            {
+                "text": "přijmeš jeho nabídku, ale plánuješ si výdělek nechat a utéct",
+                "target": 25,
+                "id": 3
+            }
+        ],
+        "id": 12,
+        "is_final": false
+    },
+    {
+        "text": "„Můj syn. Je tam venku. Hlídá, aby náš rodný dům zůstal stát a navštěvuje mě tu. Ale neřekl mi víc, než že jedná na rozkaz krále, nemá cenu se ho na to ptát. Snad v městské krčmě by mohli něco vědět.“",
+        "options": [
+            {
+                "text": "pokračuju dál",
+                "target": 14,
+                "id": 1
+            }
+        ],
+        "id": 13,
+        "is_final": false
+    },
+    {
+        "text": "Vybereš si stůl, u kterého je nejvíce lidí. Pomalu upíjíš pivo a napjatě posloucháš cizí konverzace. … „-uvařil lepší lektvar než tuhle břečku, jako správnej alchymista-“ Zpozorníš. Alchymista je středověký vědec a kvůli jednomu vědci ses tady přece objevil. Snad tě k němu zavede.",
+        "options": [
+            {
+                "text": "odejdeš s tímto mužem",
+                "target": 12,
+                "id": 1
+            },
+            {
+                "text": "budeš dál řešit záhadu spálených domů",
+                "target": 19,
+                "id": 2
+            },
+            {
+                "text": "půjdeš se podívat po městě",
+                "target": 8,
+                "id": 3
+            }
+        ],
+        "id": 14,
+        "is_final": false
+    },
+    {
+        "text": "„Náš král je vzdělaný a pověrčivý zároveň. Četl prý nějakou knihu a napadlo ho, že by v naší vesnici mohlo něco být. Ale jeho kamarádi v klášteře mu to rozmluvili a knihu vrátili zpátky mezi ostatní.“ „V klášteře?“ „To víš, jako nejmladší princ měl být knězem, ale jeho starší bratři podlehli nemoci, tak se musel z kláštera vrátit. No, a pak nastal ten velký požár, co zničil naši chalupu, Boženko.“ Už mluví z cesty. Ale ta informace o knize se zdá být věrohodná.",
+        "options": [
+            {
+                "text": "zkusíš se dostat do kláštera",
+                "target": 19,
+                "id": 1
+            },
+            {
+                "text": "odejdeš z vesnice",
+                "target": 8,
+                "id": 2
+            }
+        ],
+        "id": 15,
+        "is_final": false
+    },
+    {
+        "text": "„Jednáme na rozkaz krále,“ počká, až z domu zbyde jen popel. Pak vytáhne lopatu a společně s ostatními začne odhrabávat kupu popela. „Proč jste radši to něco nehledali v domě, když ještě stál?“ „Ta vesnice je prokletá, postavená na starém pohřebišti, ale do toho ti nic není. Už zmiz.“",
+        "options": [
+            {
+                "text": "vběhneš do nejbližšího domu",
+                "target": 10,
+                "id": 1
+            },
+            {
+                "text": "půjdeš do města",
+                "target": 8,
+                "id": 2
+            }
+        ],
+        "id": 16,
+        "is_final": false
+    },
+    {
+        "text": "Jsi šikovný a práce ti jde od ruky. Kolemjdoucí nadšeně pozorují, jak ti pod rukama vzniká mistrovské dílo. Muž, kterému jsi šel pomoci za přivýdělek prodá tvůj výrobek a shrábne všechny peníze, jakoby se s tebou neplánoval dělit. „Pomohl jsem vám, dřel jsem se několik hodin a vy mi nedáte ani část odměny?“ „Jo, svět je už takovej. Nech to bejt a běž si po svých.“",
+        "options": [
+            {
+                "text": "budeš se dál hádat, že máš na peníze nárok",
+                "target": 20,
+                "id": 1
+            },
+            {
+                "text": "půjdeš do krčmy",
+                "target": 14,
+                "id": 2
+            },
+            {
+                "text": "půjdeš do vesnice",
+                "target": 7,
+                "id": 3
+            }
+        ],
+        "id": 17,
+        "is_final": false
+    },
+    {
+        "text": "„Byl jste obviněn z čarodějnictví, což je nejhorší ze zločinů a trestá se smrtí. Co můžete říct na svou obhajobu?“",
+        "options": [
+            {
+                "text": "„Čarodějnice neexistují, jsem jen člověk.“",
+                "target": 21,
+                "id": 1
+            },
+            {
+                "text": "„Je mi líto, že došlo k omylu, ale nebyl jsem to já, protože jsem přijel teprve dnes, abych zde jako prorok hlásal slovo boží. Amen.“",
+                "target": 33,
+                "id": 2
+            },
+            {
+                "text": "„Pokud mě upálíte, Bůh vás ztrestá suchem a strašlivými nemocemi, domy zmizí v propasti, zvířata i rostliny pomřou a nastane konec světa!",
+                "target": 34,
+                "id": 3
+            }
+        ],
+        "id": 18,
+        "is_final": false
+    },
+    {
+        "text": "Ve středověku bylo jen málo lidí, kteří uměli číst a psát. Mniši v klášteře trávili čas přepisováním knih (protože neměli tiskárnu), prací a modlením. Tady byly uložené všechny knihy, ale veřejnost k nim neměla přístup. Ani ty bys tu neměl být.",
+        "options": [
+            {
+                "text": "věříš svému štěstí, že tě nikdo nechytí",
+                "target": 31,
+                "id": 1
+            },
+            {
+                "text": "seženeš si mnišský hábit, abys nevypadal podezřele",
+                "target": 28,
+                "id": 2
+            },
+            {
+                "text": "vymyslíš si přesvědčivou výmluvu",
+                "target": 26,
+                "id": 3
+            }
+        ],
+        "id": 19,
+        "is_final": false
+    },
+    {
+        "text": "Ještě chvíli se s ním hádáš o odměnu za poctivě odvedenou práci. „Tady na poctivost nehrajem, co si myslíš? Už tě mám fakt dost. Pomoc! Čarodějové mezi námi! Spaste duše! Támhle je ten netvor, upalte ho!“ Nastane panika a najednou tě pronásleduje dav s vidlemi.",
+        "options": [
+            {
+                "text": "To se všichni v tomhle městě zbláznili?",
+                "target": 18,
+                "id": 1
+            },
+            {
+                "text": "pokud máš meč, dav se lekne a ty můžeš utéct do vesnice",
+                "target": 7,
+                "id": 2
+            },
+            {
+                "text": "pokud máš meč, dav se lekne a ty můžeš utéct do lesa",
+                "target": 1,
+                "id": 3
+            }
+        ],
+        "id": 20,
+        "is_final": false
+    },
+    {
+        "text": "Pokud někoho obvinili z čarodějnictví, nebyla pro něj už žádná naděje na záchranu. Ať řekl cokoliv, byl odsouzen a popraven. Vrať se na kartu, kde jsi začínal. Hraješ pořád za stejnou postavu.",
+        "options": [
+            {
+                "text": "vracím se na start",
+                "target": 1,
+                "id": 1
+            }
+        ],
+        "id": 21,
+        "is_final": false
+    },
+    {
+        "text": "Rozhodl ses, že něco prodáš. Jde to však mizerně. A ještě tě tu navíc někdo obírá o zboží, aniž by zaplatil! „Pardon, pane, ale nemůžete si to vzít jen tak!“ „Hele, tady jsi novej, já tu znám každýho, i stráže. Nech to plavat, jestli nechceš skončit špatně.“",
+        "options": [
+            {
+                "text": "budeš se dál hádat, že máš na peníze nárok",
+                "target": 20,
+                "id": 1
+            },
+            {
+                "text": "půjdeš do krčmy",
+                "target": 14,
+                "id": 2
+            },
+            {
+                "text": "půjdeš do vesnice",
+                "target": 7,
+                "id": 3
+            }
+        ],
+        "id": 22,
+        "is_final": false
+    },
+    {
+        "text": "V doprovodu stráží jsi přišel do překrásného sálu, kde král přijímá návštěvy. Ukloníš se. „Můj pane, přišel jsem za tebou, protože bych ti rád nabídl své služby. Pokud bych ti mohl být něčím nápomocný…“ Král vstane. „Mohl bys mi pomoci s hledáním. Kdysi jsem se dočetl o tajné chodbě, která by měla vést pod celým městem a končit někde v hradu. Hrad jsem prohledal celý, i nejbližší vesnici, pod kterou se prý nachází vstup. Kdybys tu chodbu našel, štědře se ti odměním.“",
+        "options": [
+            {
+                "text": "půjdeš do té vesnice",
+                "target": 7,
+                "id": 1
+            },
+            {
+                "text": "půjdeš hledat do kláštera, protože tam jsou uložené všechny knihy",
+                "target": 19,
+                "id": 2
+            },
+            {
+                "text": "využiješ další možnosti, co město nabízí",
+                "target": 8,
+                "id": 3
+            }
+        ],
+        "id": 23,
+        "is_final": false
+    },
+    {
+        "text": "Celý den jsi poctivě pracoval a když se navečer vrátíš k alchymistovi, je s tvou prací spokojený. „Opravdu jsi mi pomohl. Samozřejmě tu můžeš zůstat a vždycky dostaneš část vydělaných peněz, ale teď pozorně poslouchej: Náš král hledá tajnou chodbu, co kdysi vedla pod městem až do hradu. Vstup je ve spálené vesnici, pod posledním, kdo zůstal.“",
+        "options": [
+            {
+                "text": "půjdeš do té vesnice",
+                "target": 27,
+                "id": 1
+            },
+            {
+                "text": "zůstaneš dál pracovat u alchymisty",
+                "target": 32,
+                "id": 2
+            },
+            {
+                "text": "ověříš si informace v klášteře",
+                "target": 19,
+                "id": 3
+            }
+        ],
+        "id": 24,
+        "is_final": false
+    },
+    {
+        "text": "Celý den jsi poctivě pracoval a k večeru už máš pořádný balík peněz. Proč se vlastně vracet k alchymistovi? Teď si můžeš dovolit hostinec s měkkou postelí a spoustu dalších věcí. Všechno tedy sbalíš i s neprodanými lahvičkami a už jsi na odchodu, když najednou přichází alchymista. „Tak tys mě chtěl okrást? Kdybys dodržel slib, mohl jsi mít víc, než právě držíš v ruce! Zmiz, než zavolám stráže!“",
+        "options": [
+            {
+                "text": "využiješ další možnosti, co město nabízí",
+                "target": 8,
+                "id": 1
+            },
+            {
+                "text": "půjdeš do vesnice",
+                "target": 7,
+                "id": 2
+            }
+        ],
+        "id": 25,
+        "is_final": false
+    },
+    {
+        "text": "„Bratře, proč se tady procházíš bez hábitu?“ „Víte, já jsem tady nový, a ještě jsem žádný hábit nedostal, protože jsem právě přišel. Jen se chci podívat, jak to tady vypadá, nezdržím se dlouho…“ „Ale jistě, tady máš hábit-oblečeš si ho až po prohlídce, teď pojď za mnou. Tady máme jídelnu, tady budeš pracovat, tady se modlit…Tvé nové jméno zní bratr Řehoř. Zdi kláštera už neopustíš.“",
+        "options": [
+            {
+                "text": "pokračuju dál",
+                "target": 31,
+                "id": 1
+            }
+        ],
+        "id": 26,
+        "is_final": false
+    },
+    {
+        "text": "Vesnice je trochu silné slovo. Vidíš jen rozpadlý kostel, spoustu popela a jediný stojící domeček. Vstoupíš dovnitř a najdeš tam na posteli ležet starou babičku. „Já se velice omlouvám, ale potřeboval bych odsunout tu postel, jestli dovolíte.“ „Takže tady se nachází vstup do té tajemné chodby s podzemní katedrálou? Je to místo, kde probíhala korunovace dřívějších králů. Prý tam zůstala koruna, která bude patřit tomu, kdo ji najde. Ten příběh se mezi prostými lidmi vypráví na dobrou noc.“ Když postel odsuneš, opravdu najdeš železná dvířka skrývající cestu do podzemí.",
+        "options": [
+            {
+                "text": "pokračuju dál",
+                "target": 29,
+                "id": 1
+            }
+        ],
+        "id": 27,
+        "is_final": false
+    },
+    {
+        "text": "Proplížíš se v cizím mnišském hábitu až do knihovny. Je tu opravdu mnoho knih. V jaké z nich by mohla být odpověď? Vidíš tlusté knihy v kůži, posázené drahokamy, knihy s nápisy, co nedokážeš přečíst…Začneš vytahovat jednu po druhé a hledat nějakou zmínku, co by ti pomohla. Hele, tady je něco o historii-rychle! Slyšíš kroky! Tohle vypadá na nějakou básničku: \t\t\t\tNa kostech nevinných vesnice stojí,\t\t\t\tzem spálenou zanechá, kdo duchů se bojí.\t\t\t\tPod městem královským podzemní chrám,\t\t\t\tkoruna patří ti, našels ji sám. To je ono! Tohle tedy král hledá ve vesnici, která stojí v místech starého pohřebiště. Už víš, kde hledat.",
+        "options": [
+            {
+                "text": "jdu do vesnice",
+                "target": 27,
+                "id": 1
+            }
+        ],
+        "id": 28,
+        "is_final": false
+    },
+    {
+        "text": "Vstoupil jsi do podzemní katedrály. Je tu dost světla na to, že nevidíš žádné okno. To koruna posázená drahokamy tolik září, jako kdyby byla upletena ze slunečních paprsků. Král bude mít radost. Pokračuješ dál a za chvíli už vylezeš v chladné místnosti s mřížemi…Vězení! Stráž na to kouká stejně překvapeně. „Já tu nejsem zavřený, našel jsem tajnou chodbu! Vchod je přímo tady!“",
+        "options": [
+            {
+                "text": "pokračuju dál",
+                "target": 30,
+                "id": 1
+            }
+        ],
+        "id": 29,
+        "is_final": false
+    },
+    {
+        "text": "Pokud někoho obvinili z čarodějnictví, nebyla pro něj už žádná naděje na záchranu. Ať řekl cokoliv, byl odsouzen a popraven. Vrať se na kartu, kde jsi začínal. Hraješ pořád za stejnou postavu.",
+        "options": [
+            {
+                "text": "vracím se na start",
+                "target": 1,
+                "id": 1
+            }
+        ],
+        "id": 33,
+        "is_final": false
+    },
+    {
+        "text": "Pokud někoho obvinili z čarodějnictví, nebyla pro něj už žádná naděje na záchranu. Ať řekl cokoliv, byl odsouzen a popraven. Vrať se na kartu, kde jsi začínal. Hraješ pořád za stejnou postavu.",
+        "options": [
+            {
+                "text": "vracím se na start",
+                "target": 1,
+                "id": 1
+            }
+        ],
+        "id": 34,
+        "is_final": false
+    }
+]
