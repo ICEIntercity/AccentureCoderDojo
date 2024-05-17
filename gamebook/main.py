@@ -43,7 +43,7 @@ def load_paragraphs(file_path):
                 id=item['id'],
                 is_final=item['is_final']
             )
-            paragraphs.append(par)
+            paragraphs.insert(par.id, par)
 
     return paragraphs
 
@@ -59,25 +59,6 @@ class Option:
         pass
 
 
-par0 = Paragraph(
-    text="Nachazis se v konferencni mistnosti Poppy. Co tu budes delat?",
-    options=[
-        Option(text="Ucit se programovat.", id=1, target=1),
-        Option(text="Strihat video.", id = 2, target=2),
-        Option(text="Spat.", id = 3, target=2),
-        ],
-    id=0,
-    is_final=False
-)
-
-par1 = Paragraph(text="Napsal jsi krasny kod!", is_final=True, options=[], id=1)
-par2 = Paragraph(text="Nenaucil ses programovat.", is_final=False, options=[
-    Option(text="Zakousnout se a zkusit to znovu.", id=1, target=1),
-    Option("Pokracovat v cinnosti.", target=3, id=2)
-], id=2)
-par3 = Paragraph(text="Opravdu to nejde.", is_final=True, options=[], id=3)
-
-# paragraphs = [par0, par1, par2, par3]
 paragraphs = load_paragraphs("paragraphs.json")
 
 current_paragraph = paragraphs[0]
@@ -102,4 +83,5 @@ while True:
     current_paragraph.display()
 
     if current_paragraph.is_final:
-        exit(0) 
+        exit(0)
+        

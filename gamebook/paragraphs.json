@@ -4,21 +4,21 @@
         "options": [
             {
                 "text": "půjdeš doleva",
+                "target": 5,
+                "id": 0
+            },
+            {
+                "text": "půjdeš doprava",
                 "target": 6,
                 "id": 1
             },
             {
-                "text": "půjdeš doprava",
-                "target": 7,
-                "id": 2
-            },
-            {
                 "text": "půjdeš hledat něco k jídlu",
-                "target": 2,
-                "id": 3
+                "target": 1,
+                "id": 2
             }
         ],
-        "id": 1,
+        "id": 0,
         "is_final": false
     },
     {
@@ -26,21 +26,21 @@
         "options": [
             {
                 "text": "ano, vypadají skvěle",
+                "target": 3,
+                "id": 0
+            },
+            {
+                "text": "ne, jsou možná jedovaté a stejně by ses spíš potřeboval napít",
                 "target": 4,
                 "id": 1
             },
             {
-                "text": "ne, jsou možná jedovaté a stejně by ses spíš potřeboval napít",
-                "target": 5,
-                "id": 2
-            },
-            {
                 "text": "dáš si jednu na zkoušku",
-                "target": 3,
-                "id": 3
+                "target": 2,
+                "id": 2
             }
         ],
-        "id": 2,
+        "id": 1,
         "is_final": false
     },
     {
@@ -48,21 +48,21 @@
         "options": [
             {
                 "text": "zkusíš najít studánku",
+                "target": 4,
+                "id": 0
+            },
+            {
+                "text": "půjdeš po cestě doleva",
                 "target": 5,
                 "id": 1
             },
             {
-                "text": "půjdeš po cestě doleva",
+                "text": "půjdeš po cestě doprava",
                 "target": 6,
                 "id": 2
-            },
-            {
-                "text": "půjdeš po cestě doprava",
-                "target": 7,
-                "id": 3
             }
         ],
-        "id": 3,
+        "id": 2,
         "is_final": false
     },
     {
@@ -70,11 +70,11 @@
         "options": [
             {
                 "text": "pokračuju dál",
-                "target": 5,
-                "id": 1
+                "target": 4,
+                "id": 0
             }
         ],
-        "id": 4,
+        "id": 3,
         "is_final": false
     },
     {
@@ -82,11 +82,11 @@
         "options": [
             {
                 "text": "pokračuju dál",
-                "target": 7,
-                "id": 1
+                "target": 6,
+                "id": 0
             }
         ],
-        "id": 5,
+        "id": 4,
         "is_final": false
     },
     {
@@ -94,16 +94,16 @@
         "options": [
             {
                 "text": "vím",
-                "target": 8,
-                "id": 1
+                "target": 7,
+                "id": 0
             },
             {
                 "text": "nevím, jdu do vesnice",
-                "target": 7,
-                "id": 2
+                "target": 6,
+                "id": 1
             }
         ],
-        "id": 6,
+        "id": 5,
         "is_final": false
     },
     {
@@ -111,21 +111,21 @@
         "options": [
             {
                 "text": "schováš se do nejbližšího domu",
-                "target": 10,
-                "id": 1
+                "target": 9,
+                "id": 0
             },
             {
                 "text": "utíkáš pryč z vesnice",
-                "target": 6,
-                "id": 2
+                "target": 5,
+                "id": 1
             },
             {
                 "text": "zkusíš s nimi vyjednávat",
-                "target": 9,
-                "id": 3
+                "target": 8,
+                "id": 2
             }
         ],
-        "id": 7,
+        "id": 6,
         "is_final": false
     },
     {
@@ -133,76 +133,76 @@
         "options": [
             {
                 "text": "Kovář: prodej výrobků",
-                "target": 22,
-                "id": 1
+                "target": 21,
+                "id": 0
             },
             {
                 "text": "Kovář: práce",
-                "target": 17,
-                "id": 2
+                "target": 16,
+                "id": 1
             },
             {
                 "text": "Kovář: krčma",
-                "target": 14,
-                "id": 3
+                "target": 13,
+                "id": 2
             },
             {
                 "text": "Obchodník: prodej výrobků",
-                "target": 22,
-                "id": 4
+                "target": 21,
+                "id": 3
             },
             {
                 "text": "Obchodník: krčma",
-                "target": 14,
-                "id": 5
+                "target": 13,
+                "id": 4
             },
             {
                 "text": "Rolník: prodej zeleniny",
-                "target": 22,
-                "id": 6
+                "target": 21,
+                "id": 5
             },
             {
                 "text": "Rolník: krčma",
-                "target": 14,
-                "id": 7
+                "target": 13,
+                "id": 6
             },
             {
                 "text": "Rytíř: návštěva hradu",
-                "target": 23,
-                "id": 8
+                "target": 22,
+                "id": 7
             },
             {
                 "text": "Rytíř: krčma",
-                "target": 14,
-                "id": 9
+                "target": 13,
+                "id": 8
             },
             {
                 "text": "Řemeslník: prodej výrobků",
-                "target": 22,
-                "id": 10
+                "target": 21,
+                "id": 9
             },
             {
                 "text": "Řemeslník: práce",
-                "target": 17,
-                "id": 11
+                "target": 16,
+                "id": 10
             },
             {
                 "text": "Řemeslník: krčma",
-                "target": 14,
-                "id": 12
+                "target": 13,
+                "id": 11
             },
             {
                 "text": "Zloděj: prodej kradeného zboží",
-                "target": 22,
-                "id": 13
+                "target": 21,
+                "id": 12
             },
             {
                 "text": "Zloděj: krčma",
-                "target": 14,
-                "id": 14
+                "target": 13,
+                "id": 13
             }
         ],
-        "id": 8,
+        "id": 7,
         "is_final": false
     },
     {
@@ -210,21 +210,21 @@
         "options": [
             {
                 "text": "budeš je sledovat",
-                "target": 11,
-                "id": 1
+                "target": 10,
+                "id": 0
             },
             {
                 "text": "utíkáš pryč z vesnice",
-                "target": 8,
-                "id": 2
+                "target": 7,
+                "id": 1
             },
             {
                 "text": "běžíš do nejbližšího domu varovat obyvatele",
-                "target": 10,
-                "id": 3
+                "target": 9,
+                "id": 2
             }
         ],
-        "id": 9,
+        "id": 8,
         "is_final": false
     },
     {
@@ -232,21 +232,21 @@
         "options": [
             {
                 "text": "poprosíš ji, aby vyprávěla dál",
-                "target": 15,
-                "id": 1
+                "target": 14,
+                "id": 0
             },
             {
                 "text": "zeptáš se, kdo by mohl vědět víc",
-                "target": 13,
-                "id": 2
+                "target": 12,
+                "id": 1
             },
             {
                 "text": "babička už je zmatená a určitě to není pravda, zeptáš se přímo těch venku",
-                "target": 16,
-                "id": 3
+                "target": 15,
+                "id": 2
             }
         ],
-        "id": 10,
+        "id": 9,
         "is_final": false
     },
     {
@@ -254,21 +254,21 @@
         "options": [
             {
                 "text": "vběhneš do nebližšího domu, abych se přesvědčil, že je prázdný",
-                "target": 10,
-                "id": 1
+                "target": 9,
+                "id": 0
             },
             {
                 "text": "zeptáš se jich, co dělají",
-                "target": 16,
-                "id": 2
+                "target": 15,
+                "id": 1
             },
             {
                 "text": "není to tvůj problém, půjdeš pryč",
-                "target": 8,
-                "id": 3
+                "target": 7,
+                "id": 2
             }
         ],
-        "id": 11,
+        "id": 10,
         "is_final": false
     },
     {
@@ -276,21 +276,21 @@
         "options": [
             {
                 "text": "přijmeš jeho nabídku",
-                "target": 24,
-                "id": 1
+                "target": 23,
+                "id": 0
             },
             {
                 "text": "odmítneš a raději se porozhlédneš po městě",
-                "target": 8,
-                "id": 2
+                "target": 7,
+                "id": 1
             },
             {
                 "text": "přijmeš jeho nabídku, ale plánuješ si výdělek nechat a utéct",
-                "target": 25,
-                "id": 3
+                "target": 24,
+                "id": 2
             }
         ],
-        "id": 12,
+        "id": 11,
         "is_final": false
     },
     {
@@ -298,11 +298,11 @@
         "options": [
             {
                 "text": "pokračuju dál",
-                "target": 14,
-                "id": 1
+                "target": 13,
+                "id": 0
             }
         ],
-        "id": 13,
+        "id": 12,
         "is_final": false
     },
     {
@@ -310,21 +310,21 @@
         "options": [
             {
                 "text": "odejdeš s tímto mužem",
-                "target": 12,
-                "id": 1
+                "target": 11,
+                "id": 0
             },
             {
                 "text": "budeš dál řešit záhadu spálených domů",
-                "target": 19,
-                "id": 2
+                "target": 18,
+                "id": 1
             },
             {
                 "text": "půjdeš se podívat po městě",
-                "target": 8,
-                "id": 3
+                "target": 7,
+                "id": 2
             }
         ],
-        "id": 14,
+        "id": 13,
         "is_final": false
     },
     {
@@ -332,16 +332,16 @@
         "options": [
             {
                 "text": "zkusíš se dostat do kláštera",
-                "target": 19,
-                "id": 1
+                "target": 18,
+                "id": 0
             },
             {
                 "text": "odejdeš z vesnice",
-                "target": 8,
-                "id": 2
+                "target": 7,
+                "id": 1
             }
         ],
-        "id": 15,
+        "id": 14,
         "is_final": false
     },
     {
@@ -349,16 +349,16 @@
         "options": [
             {
                 "text": "vběhneš do nejbližšího domu",
-                "target": 10,
-                "id": 1
+                "target": 9,
+                "id": 0
             },
             {
                 "text": "půjdeš do města",
-                "target": 8,
-                "id": 2
+                "target": 7,
+                "id": 1
             }
         ],
-        "id": 16,
+        "id": 15,
         "is_final": false
     },
     {
@@ -366,21 +366,21 @@
         "options": [
             {
                 "text": "budeš se dál hádat, že máš na peníze nárok",
-                "target": 20,
-                "id": 1
+                "target": 19,
+                "id": 0
             },
             {
                 "text": "půjdeš do krčmy",
-                "target": 14,
-                "id": 2
+                "target": 13,
+                "id": 1
             },
             {
                 "text": "půjdeš do vesnice",
-                "target": 7,
-                "id": 3
+                "target": 6,
+                "id": 2
             }
         ],
-        "id": 17,
+        "id": 16,
         "is_final": false
     },
     {
@@ -388,21 +388,21 @@
         "options": [
             {
                 "text": "„Čarodějnice neexistují, jsem jen člověk.“",
-                "target": 21,
-                "id": 1
+                "target": 20,
+                "id": 0
             },
             {
                 "text": "„Je mi líto, že došlo k omylu, ale nebyl jsem to já, protože jsem přijel teprve dnes, abych zde jako prorok hlásal slovo boží. Amen.“",
-                "target": 33,
-                "id": 2
+                "target": 32,
+                "id": 1
             },
             {
                 "text": "„Pokud mě upálíte, Bůh vás ztrestá suchem a strašlivými nemocemi, domy zmizí v propasti, zvířata i rostliny pomřou a nastane konec světa!",
-                "target": 34,
-                "id": 3
+                "target": 33,
+                "id": 2
             }
         ],
-        "id": 18,
+        "id": 17,
         "is_final": false
     },
     {
@@ -410,21 +410,21 @@
         "options": [
             {
                 "text": "věříš svému štěstí, že tě nikdo nechytí",
-                "target": 31,
-                "id": 1
+                "target": 30,
+                "id": 0
             },
             {
                 "text": "seženeš si mnišský hábit, abys nevypadal podezřele",
-                "target": 28,
-                "id": 2
+                "target": 27,
+                "id": 1
             },
             {
                 "text": "vymyslíš si přesvědčivou výmluvu",
-                "target": 26,
-                "id": 3
+                "target": 25,
+                "id": 2
             }
         ],
-        "id": 19,
+        "id": 18,
         "is_final": false
     },
     {
@@ -432,21 +432,21 @@
         "options": [
             {
                 "text": "To se všichni v tomhle městě zbláznili?",
-                "target": 18,
-                "id": 1
+                "target": 17,
+                "id": 0
             },
             {
                 "text": "pokud máš meč, dav se lekne a ty můžeš utéct do vesnice",
-                "target": 7,
-                "id": 2
+                "target": 6,
+                "id": 1
             },
             {
                 "text": "pokud máš meč, dav se lekne a ty můžeš utéct do lesa",
-                "target": 1,
-                "id": 3
+                "target": 0,
+                "id": 2
             }
         ],
-        "id": 20,
+        "id": 19,
         "is_final": false
     },
     {
@@ -454,11 +454,11 @@
         "options": [
             {
                 "text": "vracím se na start",
-                "target": 1,
-                "id": 1
+                "target": 0,
+                "id": 0
             }
         ],
-        "id": 21,
+        "id": 20,
         "is_final": false
     },
     {
@@ -466,21 +466,21 @@
         "options": [
             {
                 "text": "budeš se dál hádat, že máš na peníze nárok",
-                "target": 20,
-                "id": 1
+                "target": 19,
+                "id": 0
             },
             {
                 "text": "půjdeš do krčmy",
-                "target": 14,
-                "id": 2
+                "target": 13,
+                "id": 1
             },
             {
                 "text": "půjdeš do vesnice",
-                "target": 7,
-                "id": 3
+                "target": 6,
+                "id": 2
             }
         ],
-        "id": 22,
+        "id": 21,
         "is_final": false
     },
     {
@@ -488,21 +488,21 @@
         "options": [
             {
                 "text": "půjdeš do té vesnice",
-                "target": 7,
-                "id": 1
+                "target": 6,
+                "id": 0
             },
             {
                 "text": "půjdeš hledat do kláštera, protože tam jsou uložené všechny knihy",
-                "target": 19,
-                "id": 2
+                "target": 18,
+                "id": 1
             },
             {
                 "text": "využiješ další možnosti, co město nabízí",
-                "target": 8,
-                "id": 3
+                "target": 7,
+                "id": 2
             }
         ],
-        "id": 23,
+        "id": 22,
         "is_final": false
     },
     {
@@ -510,21 +510,21 @@
         "options": [
             {
                 "text": "půjdeš do té vesnice",
-                "target": 27,
-                "id": 1
+                "target": 26,
+                "id": 0
             },
             {
                 "text": "zůstaneš dál pracovat u alchymisty",
-                "target": 32,
-                "id": 2
+                "target": 31,
+                "id": 1
             },
             {
                 "text": "ověříš si informace v klášteře",
-                "target": 19,
-                "id": 3
+                "target": 18,
+                "id": 2
             }
         ],
-        "id": 24,
+        "id": 23,
         "is_final": false
     },
     {
@@ -532,16 +532,16 @@
         "options": [
             {
                 "text": "využiješ další možnosti, co město nabízí",
-                "target": 8,
-                "id": 1
+                "target": 7,
+                "id": 0
             },
             {
                 "text": "půjdeš do vesnice",
-                "target": 7,
-                "id": 2
+                "target": 6,
+                "id": 1
             }
         ],
-        "id": 25,
+        "id": 24,
         "is_final": false
     },
     {
@@ -549,11 +549,11 @@
         "options": [
             {
                 "text": "pokračuju dál",
-                "target": 31,
-                "id": 1
+                "target": 30,
+                "id": 0
             }
         ],
-        "id": 26,
+        "id": 25,
         "is_final": false
     },
     {
@@ -561,11 +561,11 @@
         "options": [
             {
                 "text": "pokračuju dál",
-                "target": 29,
-                "id": 1
+                "target": 28,
+                "id": 0
             }
         ],
-        "id": 27,
+        "id": 26,
         "is_final": false
     },
     {
@@ -573,11 +573,11 @@
         "options": [
             {
                 "text": "jdu do vesnice",
-                "target": 27,
-                "id": 1
+                "target": 26,
+                "id": 0
             }
         ],
-        "id": 28,
+        "id": 27,
         "is_final": false
     },
     {
@@ -585,11 +585,41 @@
         "options": [
             {
                 "text": "pokračuju dál",
-                "target": 30,
-                "id": 1
+                "target": 29,
+                "id": 0
             }
         ],
+        "id": 28,
+        "is_final": false
+    },
+    {
+        "text": "Král je vyloženě nadšený. „Za to, že jsi našel tajnou chodbu, si zasloužíš to, co se v ní nachází. Ta koruna bude jednou patřit tobě. Nemám žádného dědice, co by království převzal po mé smrti a ty jsi prokázal, že jsi toho hoden. Můžeš tu zůstat, nebo odejít, jak si přeješ. Ale brány mého hradu jsou ti otevřeny a ať přijdeš kdykoliv, budu tě čekat, synu.",
+        "options": [],
         "id": 29,
+        "is_final": true
+    },
+    {
+        "text": "Bohužel, štěstí se tě příliš dlouho nedrželo. Neplánovaně jsi zůstal zavřený v klášteře. Bylo to vlastně takové vězení, kde člověk musel pracovat, dostával málo jídla, neměl žádný majetek kromě hábitu, co měl na sobě. A hlavně, nemohl dobrovolně odejít, kdy chtěl. Tenhle konec sis nevybral, ale není zdaleka tím nejhorším, co se ti mohlo ve středověku stát. Pořád jsi naživu, a to byla v těch temných dobách vzhledem k válkám a nemocem opravdu výzva.",
+        "options": [],
+        "id": 30,
+        "is_final": true
+    },
+    {
+        "text": "Zůstal jsi pracovat u alchymisty. Povýšil jsi z prodejce na asistenta a naučil ses vyrábět lektvary. Budeš mít pěkný život, protože v tomhle království jsou alchymisté obdivováni a možná si pro tebe jednou nechá poslat král sám.",
+        "options": [],
+        "id": 31,
+        "is_final": true
+    },
+    {
+        "text": "Pokud někoho obvinili z čarodějnictví, nebyla pro něj už žádná naděje na záchranu. Ať řekl cokoliv, byl odsouzen a popraven. Vrať se na kartu, kde jsi začínal. Hraješ pořád za stejnou postavu.",
+        "options": [
+            {
+                "text": "vracím se na start",
+                "target": 0,
+                "id": 0
+            }
+        ],
+        "id": 32,
         "is_final": false
     },
     {
@@ -597,23 +627,11 @@
         "options": [
             {
                 "text": "vracím se na start",
-                "target": 1,
-                "id": 1
+                "target": 0,
+                "id": 0
             }
         ],
         "id": 33,
-        "is_final": false
-    },
-    {
-        "text": "Pokud někoho obvinili z čarodějnictví, nebyla pro něj už žádná naděje na záchranu. Ať řekl cokoliv, byl odsouzen a popraven. Vrať se na kartu, kde jsi začínal. Hraješ pořád za stejnou postavu.",
-        "options": [
-            {
-                "text": "vracím se na start",
-                "target": 1,
-                "id": 1
-            }
-        ],
-        "id": 34,
         "is_final": false
     }
 ]
