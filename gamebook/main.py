@@ -1,4 +1,5 @@
 import json
+import os
 
 class Paragraph:
     text = ""
@@ -61,26 +62,38 @@ class Option:
 
 paragraphs = load_paragraphs("paragraphs.json")
 
-current_paragraph = paragraphs[0]
+file_path = "save.txt"
+
+last_paragraph = 0
+if os.path.isfile(file_path):
+    with open(file_path) as file:
+        last_paragraph = int(file.read())
+
+current_paragraph = paragraphs[last_paragraph]
 current_paragraph.display()
 
 while True:
     choice = input()
 
     if len(choice) != 1:
-        print("Napis to znovu a spravne")
-        exit(-1)
+        print("Napiš to znovu a správně.")
+        continue
 
     choice_id = ord(choice.upper()) - 65
 
     try:
         target_paragraph = current_paragraph.options[choice_id].target # target moznosti cislo choice_id v current_paragraph
     except IndexError:
-        print("Moznost neexistuje!")
-        exit(-2)
+        print("Možnost neexistuje!")
+        continue
+        
 
     current_paragraph = paragraphs[target_paragraph]
     current_paragraph.display()
+
+    last_paragraph = current_paragraph.id
+    with (open(file_path,'w') as file):
+        file.write(str(last_paragraph))
 
     if current_paragraph.is_final:
         exit(0)
