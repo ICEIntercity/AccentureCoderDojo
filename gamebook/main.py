@@ -66,8 +66,19 @@ file_path = "save.txt"
 
 last_paragraph = 0
 if os.path.isfile(file_path):
-    with open(file_path) as file:
-        last_paragraph = int(file.read())
+
+    user_choice = "X"
+
+    while user_choice != "a" and user_choice != "n":
+        user_choice = input("Pokračovat v uložené hře? (a/n): ")
+
+        if user_choice == "a":
+            with open(file_path) as file:
+                last_paragraph = int(file.read())
+        elif user_choice == "n":
+            pass
+        else:
+            print("Neplatná volba.")
 
 current_paragraph = paragraphs[last_paragraph]
 current_paragraph.display()
